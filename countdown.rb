@@ -13,9 +13,10 @@ def countdown(countdown_output)
 end
 
 def countdown_to_sleep(countdown_output)
- while countdown_output > 0
-  puts "#{countdown_output} SECOND(S)"
-  sleep(1)
+  
+  while countdown_output > 0
+   puts "#{countdown_output} SECOND(S)"
+   sleep(1)
   countdown_output -= 1
  end
  ""
