@@ -1,3 +1,5 @@
+countdown_output = 10
+countdown = 12 
 
 def countdown(countdown_output)
   
@@ -11,4 +13,5 @@ def countdown(countdown_output)
 end
 
 def countdown_to_sleep(countdown_output)
- while countdown_output
+ while countdown_output > 0
+ 
