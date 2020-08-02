@@ -11,4 +11,4 @@ def countdown(countdown_output)
  "HAPPY NEW YEAR!"
 end
 
-def 
+def countdown_to_sleep(countdown_output)
