@@ -1,7 +1,6 @@
 
 def countdown(countdown_output)
-  countdown_output = 10
-  countdown = 12
+  
 
   while countdown_output > 0
    puts "#{countdown_output} SECOND(S)!"
@@ -12,4 +11,4 @@ def countdown(countdown_output)
 end
 
 def countdown_to_sleep(countdown_output)
- while 
+ while countdown_output
