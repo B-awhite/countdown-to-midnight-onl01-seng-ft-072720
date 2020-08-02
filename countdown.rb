@@ -17,4 +17,5 @@ def countdown_to_sleep(countdown_output)
   puts "#{countdown_output} SECOND(S)"
   sleep(1)
   countdown_output -= 1
-  
+ end
+end
